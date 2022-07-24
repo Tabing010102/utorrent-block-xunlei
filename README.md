@@ -25,6 +25,13 @@
 
 ## 中文 | [English](./README.en.md)
 
+## Linux运行
+```
+npm install
+npm run build:npm
+node utorrent-block-xunlei.js --port 11451 --username user --password pwd --ipfilter "/path/to/ipfilter.dat"
+```
+
 ## 屏蔽功能
 ### 每隔 20 秒，自动检查 uTorrent 已连接的用户列表，找出迅雷客户端，强制断开，不给吸血雷上传任何数据，并将用户 IP 加入黑名单阻止其再次连接，把带宽留给正规 BT 客户端
 
